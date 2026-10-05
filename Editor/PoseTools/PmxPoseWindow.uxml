@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="PmxPoseWindow.uss" />
+  <ui:ScrollView name="poseRoot" class="pose-root">
+    <ui:Label text="PMX ポーズ・アニメーション" class="pose-title" />
+    <ui:Label text="ポーズを調整 → フレームを記録 → プレビュー → .anim に書き出し。作業データは保存して再編集でき、キーの記録はUndoで戻せます。" class="pose-help" />
+    <ui:VisualElement name="modelArea" />
+    <ui:VisualElement name="documentArea" />
+    <ui:VisualElement name="editingArea">
+      <ui:VisualElement name="timelineArea" class="pose-section" />
+      <ui:VisualElement name="boneArea" class="pose-section" />
+      <ui:VisualElement name="expressionArea" class="pose-section" />
+      <ui:VisualElement name="keyArea" class="pose-section" />
+      <ui:VisualElement name="exportArea" class="pose-section" />
+    </ui:VisualElement>
+    <ui:Label name="statusLabel" class="pose-status" />
+  </ui:ScrollView>
+</ui:UXML>

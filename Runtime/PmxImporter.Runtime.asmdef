@@ -1,0 +1,6 @@
+{
+  "name": "PmxImporter.Runtime",
+  "rootNamespace": "PmxImport",
+  "references": [],
+  "autoReferenced": true
+}

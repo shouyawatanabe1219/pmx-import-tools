@@ -1,0 +1,11 @@
+.pose-root { flex-grow: 1; padding: 10px; }
+.pose-title { font-size: 18px; -unity-font-style: bold; margin-bottom: 6px; }
+.pose-help { white-space: normal; margin-bottom: 8px; }
+.pose-row { flex-direction: row; flex-wrap: wrap; margin-bottom: 5px; }
+.pose-row > Button { margin-right: 5px; }
+.pose-section { margin-top: 10px; padding-top: 6px; border-top-width: 1px; border-top-color: #606060; }
+.pose-section-title { -unity-font-style: bold; margin-bottom: 5px; }
+.pose-grow { flex-grow: 1; }
+.pose-key { flex-direction: row; margin-bottom: 3px; }
+.pose-key > Button { margin-right: 5px; }
+.pose-status { white-space: normal; margin-top: 8px; }

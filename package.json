@@ -1,0 +1,22 @@
+{
+  "name": "com.pmximport.tools",
+  "version": "0.2.0",
+  "displayName": "PMX Import & Animation Tools",
+  "description": "Unity 6向けPMXモデル・ZIPインポーター、剛体とジョイント、表情、リグ操作、ポーズ・アニメーション作成ツール。",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": { "name": "shouyawatanabe1219" },
+  "repository": { "type": "git", "url": "https://github.com/shouyawatanabe1219/pmx-import-tools.git" },
+  "keywords": ["pmx", "mmd", "animation", "rig", "physics"],
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  }
+}

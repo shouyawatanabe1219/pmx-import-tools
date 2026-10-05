@@ -1,0 +1,7 @@
+{
+  "name": "PmxImporter.Editor",
+  "rootNamespace": "PmxImport.Editor",
+  "references": ["PmxImporter.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
